@@ -5,6 +5,10 @@ compute the next four digits. Turn in your C program. Your C program must compil
 
 #include <stdio.h>
 
+/*Recursive fibonacci sequence
+ *@param: index of where you want the sequence to stop
+ *@return: value of fibonacci index
+*/
 int fibonacci(int index) {
     if (index == 0 || index == 1)
         return 1;
